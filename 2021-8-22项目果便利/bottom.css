@@ -1,0 +1,262 @@
+/*底部*/
+.footerService{
+	background: #e0e0e0 none repeat scroll 0 0;
+	margin-top:50px;
+	padding:30px 0;
+}
+
+.serviceList{
+	width:1200px;
+	margin:0 auto;
+}
+.serviceList ul{
+	overflow: hidden;
+}
+.serNode{
+	background: rgba(0,0,0,0) url(http://39.103.177.112/images/footer_service_icon.png) no-repeat scroll left top;
+	float:left;
+	height:42px;
+	width:190px;
+	padding-left: 55px;
+	margin-left:55px;
+}
+.ser01{
+	background-position: 0 0;
+}
+.serNode strong{
+	display: block;
+	padding-left: 15px;
+	border-left:1px solid #a6a6a6;
+	color:#007f4d;
+	font-size:18px;
+	line-height: 25px;
+}
+.serNode span{
+	display: block;
+	border-left:1px solid #a6a6a6;
+	padding-left:15px;
+}
+.ser02{
+	background-position: 0 -42px;
+}
+.ser03{
+	background-position: 0 -84px;
+}
+.ser04{
+	background-position: 0 -126px;
+}
+.footer{
+	width:1200px;
+	margin:0 auto;
+	border-top:1px solid #e0e0e0;
+	padding-bottom:20px;
+	position: relative;
+}
+.footerCont{
+	margin:50px auto 0;
+	/*overflow: hidden;*/
+}
+.footerCol{
+	width:190px;
+	float: left;
+	margin-left:50px;
+}
+.footerTitle{
+	height:23px;
+	line-height: 23px;
+	text-indent: 40px;
+	font-size:14px;
+	background: rgba(0,0,0,0) url(http://39.103.177.112/images/footer_icon.png) no-repeat scroll 0 0;
+}
+.ft01{
+	background-position: 0 0;
+}
+.footerList{
+	height:110px;
+	border-left:1px dashed #a8a8a8;
+	margin:15px 0 0 13px;
+	min-height:110px;
+	padding-left:20px;
+}
+.footSub a{
+	color:#575556;
+	line-height: 22px;
+}
+.ft02{
+	background-position: 0 -23px;
+}
+.ft03{
+	background-position: 0 -46px;
+}
+.ft04{
+	background-position: 0 -69px;
+}
+.ft05{
+	background-position: 0 -92px;
+}
+.footSub a:hover{
+	text-decoration:underline;
+	color:#008842;
+}
+.footerPhone{
+	font-size:14px;
+	padding:60px 0 20px;
+	text-align: center;
+	color:#008842;
+	clear: both;
+}
+.footerPhone span{
+	display: inline-block;
+	padding:0 10px;
+	color:#008842;
+}
+.footerCopy{
+	color:#717171;
+	line-height: 22px;
+	text-align: center;
+}
+.copyId,.copyCom{
+	color:#717171;
+}
+.copyId:hover,.copyCom:hover{
+	color:#008842;
+	text-decoration: underline;
+}
+.footerAuther a{
+	display: inline-block;
+	margin:0 10px;
+	vertical-align: middle;
+	color:#717171;
+	/*float: left;*/
+}
+.footerImg{
+	height:20px;
+	line-height: 20px;
+}
+.footerImg img{
+	float: left;
+}
+.footerImg span{
+	float: left;
+	height:20px;
+	line-height: 20px;
+	margin-left:5px;
+	color:#939393;
+}
+
+
+
+
+
+
+
+/* 返回顶部、在线客服 */
+.sideBar{
+	width:56px;
+	position: fixed;
+	right:47%;
+	bottom: 20px;
+	margin-right:-625px;
+	z-index: 5;
+}
+.sideBar a{
+	display: block;
+	width:50px;
+	height:42px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	background: rgba(0,0,0,0) url(http://39.103.177.112/images/sidebar.png) no-repeat;
+}
+#online{
+	background-position: 0 -46px;
+}
+#goTop{
+	display: none;
+	background-position: 0 0;
+}
+#online:hover{
+	background-position: -56px -46px;
+}
+#goTop:hover{
+	background-position: -56px 0;
+}
+
+
+
+.left-ul{
+	width: 41px;
+	height: 410px;
+	/* border: 1px solid red; */
+	position: fixed;
+	top: 350px;
+	left: 300px;
+	display: none;
+}
+.left-ul-li{
+	width: 41px;
+	height: 40px;
+	/* border: 1px solid #ccc; */
+	text-align: center;	
+}
+.left-ul-li span{
+	/* display: block; */
+	width: 100%;
+	height: 100%;
+	/* border: 1px solid #ccc; */
+	text-align: center;	
+}
+
+
+
+.left-ul-li:nth-of-type(1){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(2){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -40px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(3){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -80px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(4){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -120px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(5){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -160px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(6){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -200px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(7){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -240px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(8){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -280px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(9){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -320px 0 ;
+	border-bottom: none;
+}
+.left-ul-li:nth-of-type(10){
+	background-image: url(http://39.103.177.112/images/floor_guide.png);
+	background-position: -360px 0 ;
+	
+}
+.left-ul-span{
+	display: none;
+}
